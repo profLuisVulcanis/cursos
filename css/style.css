@@ -10,6 +10,7 @@ header {
     display: flex;
     padding: 1.5rem 1rem;
     align-items: center;
+    justify-content: space-between;
     border-bottom: 0.5rem solid olivedrab;
     margin-bottom: 2rem;
 }
