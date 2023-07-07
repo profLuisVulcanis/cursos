@@ -29,6 +29,23 @@ header figure img {
     width: 100%;
 }
 
+main section article {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+}
+
+main section article h2 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin: 1rem 0rem;
+}
+
+main section article p {
+    margin-bottom: 0.5rem;
+}
+
 footer {
     padding: 3rem 1rem;
     background-color: olivedrab;
