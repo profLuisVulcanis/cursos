@@ -46,6 +46,12 @@ main section article p {
     margin-bottom: 0.5rem;
 }
 
+main section article figure {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
 footer {
     padding: 3rem 1rem;
     background-color: olivedrab;
