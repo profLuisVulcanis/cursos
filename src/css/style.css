@@ -12,7 +12,6 @@ header {
     align-items: center;
     justify-content: space-between;
     border-bottom: 0.5rem solid olivedrab;
-    margin-bottom: 2rem;
 }
 
 header h1 {
@@ -27,6 +26,38 @@ header figure {
 
 header figure img {
     width: 100%;
+}
+
+nav {
+    padding: 0.5rem 1.5rem;
+    max-width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+nav ul li {
+    padding: 0.5rem;
+    background: linear-gradient(to right bottom, blueviolet, gold);
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 3px black;
+    color: whitesmoke;
+    font-weight: 300;
+    cursor: crosshair;
+    transition: 0.5s;
+}
+
+nav ul li:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 main header h2 {
