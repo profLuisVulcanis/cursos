@@ -29,6 +29,13 @@ header figure img {
     width: 100%;
 }
 
+main header h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: olivedrab;
+    padding: 1rem 3rem;
+}
+
 main section article {
     padding: 1rem;
     margin: 1rem;
