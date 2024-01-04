@@ -1,0 +1,82 @@
+@import url('./reset.meyer.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+html, body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    display: grid;
+    grid-template-rows: 40px auto 40px;
+    height: 100vh;
+}
+
+header, footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: black;
+    color: grey;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 80px;
+}
+
+header form input {
+    background-color: grey;
+    border: none;
+}
+
+main {
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: auto 45% 45%;
+    gap: 15px;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.barcode {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: black;
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+.unidade, .valor {
+    background-color: darkred;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    font-size: 8rem;
+    font-weight: 700;
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    top: -26px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
